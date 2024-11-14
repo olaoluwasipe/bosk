@@ -1,0 +1,229 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+.green {
+    color: #96C859;
+}
+
+.fullpage-carousel {
+    height: 100vh;
+}
+
+.carousel-section {
+    height: 100vh;
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.owl-item > .carousel-section {
+    /* opacity: 0; */
+    background-size: 150% !important;
+    background-position: center;
+    transition: all 500ms linear;
+}
+
+.owl-item.active > .carousel-section {
+    /* opacity: 1; */
+    background-size: 100% !important;
+}
+
+.service-card {
+    /* padding: 30px; */
+    background-color: #202020;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.service-card .top {
+    height: 180px;
+    background: #171717;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+
+.service-card .top img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+.service-card .content {
+    background-color: #202020;
+    padding: 15px;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+
+
+.partner-logo {
+    /* height: 150px; */
+    background: #202020;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.partner-logo .image {
+    height: 238px;
+}
+
+.partner-logo .content {
+    padding: 30px 20px;
+}
+
+.partner-logo.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.nav-bottom {
+    background: transparent;
+    backdrop-filter: blur(10px);
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0 -4px 6px rgba(0,0,0,0.1);
+}
+
+.nav-link {
+    color: #fff;
+    border-bottom: 3px solid #96C859;
+    font-weight: 500;
+    padding: 8px 20px;
+    margin: 0 5px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    background: linear-gradient(to bottom, transparent, #96c859);
+    color: white;
+}
+
+.form-control {
+    /* border-radius: 25px; */
+    padding: 12px 20px;
+}
+
+.btn-primary {
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-weight: 500;
+}
+
+.header {
+    position: absolute;
+    width: 1200;
+    margin: auto;
+    top: 10%;
+    left: 15%;
+    z-index: 999999;
+}
+
+/* Home Section */
+#home {
+    background-image: url(../images/bg-1.png);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+#home h1 {
+    /* font-size: 60px; */
+    font-weight: 500 !important;
+}
+
+#home p {
+    font-size: 28px;
+    width: 60%;
+    margin-top: 50px;
+}
+
+.carousel-section .cta {
+    background-color: #96c85979;
+    border: 2px solid #96c859;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 0;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-section a.cta {
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+}
+
+.carousel-section .cta:hover {
+    background-color: #70a341;
+}
+
+.carousel-section .cta > p {
+    margin: 0;
+    font-size: 16px;
+    margin-top: 0 !important;
+}
+
+/* Services Section */
+#services {
+    background-image: url(../images/bg-2.png);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+/* Partners Section */
+
+#partners {
+    background-image: url(../images/bg-1.png);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+/* Customers Section */
+#customers {
+    background-image: url(../images/bg-2.png);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+#customers .service-card img {
+    width: auto;
+}
+
+#customers .service-card h3 {
+    font-size: 20px;
+}
+
+/* Contact Section */
+#contact {
+    background-image: url(../images/bg-1.png);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+#contact .box {
+    background-color: #171717;
+
+}
